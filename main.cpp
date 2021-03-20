@@ -114,33 +114,33 @@ void writefile(std::vector<std::vector<int>> a, int n, std::string& file)
     myfile.close();
 }
 
+
+
 int main() {
 
-
-    std::vector<std::vector<int>> m = {{0, 1, 1, 1},
-                                       {1, 0, 1, 0},
-                                       {1, 1, 0, 0},
-                                       {1, 0, 0, 0}};
-
-    std::vector<std::vector<int>> m2 = {{0, 1, 1},
-                                        {1, 0, 0},
-                                        {1, 0, 0}};
-//    std::vector<std::vector<int>> mm = multiply(m, m, 4);
-
-    std::vector<std::vector<int>> a = {{0, 1, 0, 1, 0, 0, 0, 0},
-                                       {1, 0, 1, 0, 0, 0, 0, 0},
-                                       {0, 1, 0, 0, 0, 0, 0, 0},
-                                       {1, 0, 0, 0, 1, 0, 0, 1},
-                                       {0, 0, 0, 1, 0, 1, 1, 1},
-                                       {0, 0, 0, 0, 1, 0, 1, 0},
-                                       {0, 0, 0, 0, 1, 1, 0, 1},
-                                       {0, 0, 0, 1, 1, 0, 1, 0}};
+//    std::vector<std::vector<int>> m = {{0, 1, 1, 1},
+//                                       {1, 0, 1, 0},
+//                                       {1, 1, 0, 0},
+//                                       {1, 0, 0, 0}};
+//
+//    std::vector<std::vector<int>> m2 = {{0, 1, 1},
+//                                        {1, 0, 0},
+//                                        {1, 0, 0}};
+////    std::vector<std::vector<int>> mm = multiply(m, m, 4);
+//
+//    std::vector<std::vector<int>> a = {{0, 1, 0, 1, 0, 0, 0, 0},
+//                                       {1, 0, 1, 0, 0, 0, 0, 0},
+//                                       {0, 1, 0, 0, 0, 0, 0, 0},
+//                                       {1, 0, 0, 0, 1, 0, 0, 1},
+//                                       {0, 0, 0, 1, 0, 1, 1, 1},
+//                                       {0, 0, 0, 0, 1, 0, 1, 0},
+//                                       {0, 0, 0, 0, 1, 1, 0, 1},
+//                                       {0, 0, 0, 1, 1, 0, 1, 0}};
 
     std::string str = "../input.txt";
     std::string str2 = "../output.txt";
     std::vector<std::vector<int>> a2 = readfile(str);
-    std::vector<std::vector<int>> d = sidel(a2, 8);
-    writefile(d, 8, str2);
-    std::cout << "Hello, World!" << std::endl;
+    std::vector<std::vector<int>> d = sidel(a2, a2.size());
+    writefile(d, d.size(), str2);
     return 0;
 }
