@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\Users\nikit\CLionProjects\TSV\.idea/dataSources/
+/../../../../../../../:\Users\nikit\Downloads\DateConverter_withTests-master\DateConverter_withTests-master\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

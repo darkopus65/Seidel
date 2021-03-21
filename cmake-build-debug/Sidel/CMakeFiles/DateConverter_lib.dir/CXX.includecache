@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nikit/Downloads/DateConverter_withTests-master/SIdelAlgo/Sidel/Sidel.cpp
+Sidel.h
+C:/Users/nikit/Downloads/DateConverter_withTests-master/SIdelAlgo/Sidel/Sidel.h
+
+C:/Users/nikit/Downloads/DateConverter_withTests-master/SIdelAlgo/Sidel/Sidel.h
+vector
+-
+string
+-
+
